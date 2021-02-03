@@ -55,7 +55,7 @@ ul->li->a::hover{
                 <div class="collapse show" id="charts">
                     <ul class="nav pl-4">
                         <li>
-                            <a href="{{ route('registerofficer')  }}">
+                            <a href="{{ route("donation")  }}">
                                 <i class="tim-icons icon-money-coins"></i>
                              <p>{{ __('DonationGraph') }}</p>
                             </a>

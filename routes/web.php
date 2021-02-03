@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterHealthOfficer;
 use App\Http\Controllers\DonorFundsController;
+use App\Http\Controllers\DonationController;
 use Illuminate\Support\Facades\DB;
+
 
 
 
@@ -59,3 +61,4 @@ function(){
 }
 
 );
+Route::get('/donation', [DonationController::class , "index"])->name("donation");
